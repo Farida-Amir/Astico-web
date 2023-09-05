@@ -55,6 +55,23 @@
     margin-top: 30px;
     font-style: italic;
 }
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: white; 
+    display: flex;
+    box-shadow: 0px 1px 0px rgb(0, 0, 0, 0.1);
+
+    
+}
+
+
+body{
+    padding-top: 100px;
+}
 
 .header{
     position: fixed;
@@ -390,17 +407,22 @@ p{
         position: sticky;
     }
 
-
     
     .slider figure img{
         width: 100%;
         margin-bottom: 0px;
+        padding-bottom: 0px;
+        
     }
     .slider{
         margin-bottom: 0px;
+        padding-bottom: 0px;
+
     }
     .slide{
         margin-bottom: 0px;
+        padding-bottom: 0px;
+
     }
     .disc-ast{
         margin-top: 0px;
@@ -481,6 +503,7 @@ p{
         padding-left: 6px;
         padding-right: 6px;
     }
+
     
 }
 
