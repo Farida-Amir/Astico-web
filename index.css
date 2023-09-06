@@ -64,11 +64,7 @@
     background-color: white; 
     display: flex;
     box-shadow: 0px 1px 0px rgb(0, 0, 0, 0.1);
-
-    
 }
-
-
 body{
     padding-top: 100px;
 }
@@ -214,12 +210,11 @@ p{
 
 
 .pa{
-    margin-top:20px;
     font-size: 30px;
     color: brown;
     margin-bottom: 0px;
     font-weight: bold;
-    margin-left: 600px;
+    margin-left: 650px;
 }
 .pb{
     font-size: 25px;
@@ -228,7 +223,7 @@ p{
     margin-bottom: 70px;
     color:brown;
     font-weight: bold;
-    margin-left: 300px;
+    margin-left: 350px;
 
     
 }
@@ -378,9 +373,8 @@ p{
         display: block;
         margin-bottom: 0px;
     }
-    .site-p{
-        margin-left: 130px;
-        }
+
+
     .info-grid{
         display: block;
         padding-top: 10px;
@@ -505,7 +499,12 @@ p{
     }
 
     
+
+    
 }
+
+
+
 
 @media (min-width:601px) and (max-width:820px){
     .pa{
@@ -546,16 +545,16 @@ p{
     }
     .home-button{
         margin-left: 0px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .products-button{
-        font-size: 25px;
+        font-size: 20px;
     }
     .about-button{
-        font-size: 25px;
+        font-size: 20px;
     }
     .contact-button{
-        font-size: 25px;
+        font-size: 20px;
     }
 
 
@@ -585,6 +584,9 @@ p{
         margin-left: 10px;
         margin-bottom: 0px;
     }
+    .site-p{
+        margin-left: 350px;
+    }
 
     .adres, .mob, .ema, .site-p{
         font-size: 20px;
@@ -608,3 +610,116 @@ p{
     }
 
 }
+
+
+
+@media (min-width:821px) and (max-width:902px){
+    .home-button{
+        margin-left:20px;
+    }
+    .info-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        height: 370px;
+    }
+    .location-container{
+        padding-left: 50px;
+    }
+    .email-container{
+        padding-left: 50px;
+    }
+
+    .pa, .pb, .mission, .vision{
+        margin-left: 10px;
+        display: block;
+    }
+    .who-button{
+        margin-left: 0px;
+        width: 100%;
+
+    }
+}
+
+@media (min-width:903px) and (max-width:1380px){
+    .home-button{
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+    .products-button{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .about-button{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .contact-button{
+        margin-left: 20px;
+
+    }
+
+   .pb{
+        margin-left: 200px;
+    }
+    .pa{
+        margin-left: 500px;
+    }
+    .mission{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .vision{
+        display: inline-block;
+        margin-left: 200px;
+    }
+    .who-button{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width:1159px) and (min-width:902px){
+    .home-button{
+        margin-left: 60px;
+    }
+
+    .info-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        height: 370px;
+    }
+    .location-container{
+        padding-left: 50px;
+    }
+    .email-container{
+        padding-left: 50px;
+    }
+    .phone-container{
+        padding-left: 50px;
+    }
+    .site-map{
+        padding-left: 50px;
+    }
+
+    .pb{
+        margin-left: 70px;
+    }
+    .pa{
+        margin-left: 380px;
+    }
+    .mission{
+        margin-left: 10px;
+    }
+    .vision{
+        margin-left: 10px;
+    }
+    .who-button{
+        width: 100%;
+        margin-left: 0px;
+    }
+}    
