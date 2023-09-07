@@ -59,6 +59,7 @@ h3{
 .contact-button{
     background-color: white;
     color: red;
+    text-decoration: underline;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -411,7 +412,7 @@ body{
 }
 
 
-@media (min-width:821px) and (max-width:902px){
+@media (min-width:820px) and (max-width:902px){
     .home-button{
         margin-left:20px;
     }

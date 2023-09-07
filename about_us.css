@@ -55,7 +55,8 @@
 }
 .about-button{
     background-color: white;
-    color: grey;
+    color: gray;
+    text-decoration: underline;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -69,7 +70,7 @@
 }
 .contact-button{
     background-color: white;
-    color: red;
+    color: grey;
     border: none;
     cursor: pointer;
     font-size: 20px;

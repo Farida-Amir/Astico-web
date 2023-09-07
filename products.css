@@ -35,6 +35,7 @@ body{
 .products-button{
     background-color: white;
     color: grey;
+    text-decoration: underline;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -62,7 +63,7 @@ body{
 }
 .contact-button{
     background-color: white;
-    color: red;
+    color: grey;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -284,9 +285,12 @@ body{
     .products-disc{
         text-align: center;
     }
-    .vegetables-button{
+
+
+    .fruits-container{
         margin-bottom: 50px;
     }
+
     .pro-page{
         display: flex;
         align-items: center;
