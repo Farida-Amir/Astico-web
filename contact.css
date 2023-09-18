@@ -432,10 +432,10 @@ body{
 
 
     .address-button, .phone-button, .email-button{
-        margin-left: 200px;
+        margin-left: 100px;
     }
     .contact-pic{
-        margin-left: 170px;
+        margin-left: 150px;
     }
     iframe{
         height: 350px;
@@ -482,13 +482,9 @@ body{
     .home-button{
         margin-left: 60px;
     }
-
-
-
-   
-
-    
-    
 }
+
+
+
 
 
